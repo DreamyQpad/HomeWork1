@@ -45,3 +45,17 @@ iframe, video {
     border: 1px solid green;
     border-radius: 10px;
 }
+
+.list-group {
+    padding-top: 1rem;
+    width: 50rem;
+    margin: 0 auto;
+}
+.laptops {
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 10rem;
+}
+.laptops h1, .laptops h2{
+    text-align: center;
+}

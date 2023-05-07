@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\LaptopController;
 
 /*
  * Home Page Route-s
@@ -12,9 +13,11 @@ Route::get('/', function () {
 /*
  * Laptops Route-s
  */
-Route::get('/laptops', function() {
-    return view('laptops');
-});
+Route::post("/add", [LaptopController::class, 'store']);
+
+Route::get('/laptops', [LaptopController::class, 'show']);
+
+
 
 /*
  * Posts Route-s /categories
