@@ -6,7 +6,7 @@
                 <div class="homeVideos">
                     <h2>YouTube Video</h2>
                     <div>
-                        <iframe src="https://www.youtube.com/embed/rIfdg_Ot-LI" title="YouTube video player"  allowfullscreen></iframe>
+                        <iframe src="https://www.youtube-nocookie.com/embed/rIfdg_Ot-LI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>

@@ -1,5 +1,4 @@
-
-let baseLocation = [
+let baseLocation = [        // location Csemő
     47.115880,
     19.696240
 ];
@@ -13,4 +12,4 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 
 // Create Marker
-L.marker(baseLocation, {alt: 'JosephDev'}).addTo(map).bindPopup("JosephDev's company location");
+L.marker(baseLocation, {alt: 'JosephDev'}).addTo(map).bindPopup("Address of JosephDev's organization");
