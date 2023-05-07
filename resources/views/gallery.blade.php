@@ -1,3 +1,3 @@
 <x-layout>
-    gallery
+    On Development
 </x-layout>

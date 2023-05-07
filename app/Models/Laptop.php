@@ -49,7 +49,6 @@ class Laptop extends Model {
             $data['processorid'],
             $data['opsystemid']
         ]);
-
         return ($query);
     }
 }

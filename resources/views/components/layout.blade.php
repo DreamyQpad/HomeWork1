@@ -25,7 +25,7 @@
                             Posts
                         </a>
                         <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="/posts">List of a posts</a></li>
+                            <li><a class="dropdown-item" href="/post">List of a posts</a></li>
                             <li><a class="dropdown-item" href="/categories">List of a category</a></li>
                         </ul>
                     </li>

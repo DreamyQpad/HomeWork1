@@ -22,7 +22,10 @@ class LaptopController extends Controller {
     }
 
     public function store(Request $request) {
-        $ret = Laptop::storeLaptop($request);
+        $cool = Laptop::storeLaptop($request);
+        if ($cool) {
+            return redirect('/laptops');
+        }
     }
     public function convertData ($var){
         $array = [];

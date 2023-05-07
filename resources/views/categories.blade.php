@@ -1,3 +1,3 @@
 <x-layout>
-    categories
+    On Development
 </x-layout>
